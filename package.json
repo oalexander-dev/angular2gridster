@@ -1,6 +1,6 @@
 {
   "name": "angular2gridster",
-  "version": "13.0.0",
+  "version": "14.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -19,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/swiety85/angular2gridster.git"
+    "url": "git+ssh://git@github.com/oalexander-dev/angular2gridster.git"
   },
   "author": {
-    "name": "Damian Wajdlich",
-    "email": "swiety85@gmail.com"
+    "name": "Owen Alexander",
+    "email": "owen6alexander@gmail.com"
   },
   "keywords": [
     "gridster",
@@ -36,9 +36,9 @@
     "widgets"
   ],
   "bugs": {
-    "url": "https://github.com/swiety85/angular2gridster/issues"
+    "url": "https://github.com/oalexander-dev/angular2gridster/issues"
   },
-  "homepage": "https://github.com/swiety85/angular2gridster#readme",
+  "homepage": "https://github.com/oalexander-dev/angular2gridster#readme",
   "dependencies": {
     "@angular/common": "^14.2.12",
     "@angular/core": "^14.2.12",
