@@ -7,11 +7,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* **upgrade:** Upgrade to Angular 14 ([fe70cfe](https://github.com/oalexander/angular2gridster/commit/fe70cfe))
+* **upgrade:** Upgrade to Angular 14 ([fe70cfe](https://github.com/oalexander-dev/angular2gridster/commit/fe70cfe))
 
 ### Bug Fixes
 
-* Fix security issues ([e5791a7](https://github.com/swiety85/angular2gridster/commit/e5791a7))
+* Fix security issues ([e5791a7](https://github.com/oalexander-dev/angular2gridster/commit/e5791a7))
 
 
 
