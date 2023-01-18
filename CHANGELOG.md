@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [14.0.2](https://github.com/oalexander-dev/angular2gridster/compare/v13.0.0...v14.0.2) (2023-01-18)
+
+
+### Features
+
+* **upgrade:** Upgrade to Angular 14 ([fe70cfe](https://github.com/oalexander/angular2gridster/commit/fe70cfe))
+
+### Bug Fixes
+
+* Fix security issues ([e5791a7](https://github.com/swiety85/angular2gridster/commit/e5791a7))
+
+
+
 ## [13.0.0](https://github.com/swiety85/angular2gridster/compare/v12.0.0...v13.0.0) (2022-01-11)
 
 
