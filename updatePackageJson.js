@@ -11,6 +11,7 @@ targerFile
     .set('author', sourceFile.get('author'))
     .set('keywords', sourceFile.get('keywords'))
     .set('bugs', sourceFile.get('bugs'))
+    .set('name', sourceFile.get('name'))
     .set('homepage', sourceFile.get('homepage'));
 
 targerFile.save();

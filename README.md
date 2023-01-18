@@ -1,8 +1,12 @@
 # angular2gridster-v2
 
-[![npm version](https://badge.fury.io/js/angular2gridster.svg)](https://badge.fury.io/js/angular2gridster-v2)
+[![npm version](https://badge.fury.io/js/angular2gridster-v2.svg)](https://badge.fury.io/js/angular2gridster-v2)
 
-Angular implementation of well known Gridster (no jQuery, no external libraries, only Angular and Rx.js).
+Angular implementation of well known Gridster (no jQuery, no external libraries, only Angular and Rx.js). [Demo](https://oalexander-dev.github.io/angular2gridster/).
+
+1. [Getting started](https://github.com/swiety85/angular2gridster/wiki/Getting-started)
+2. [What is Angular2gridster and why to use it?](https://github.com/swiety85/angular2gridster/wiki)
+3. [API Documentation](https://github.com/swiety85/angular2gridster/wiki/API-Documentation)
 
 ## Versions:
 
