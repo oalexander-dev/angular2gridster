@@ -2,6 +2,103 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 16.0.0 (2023-08-01)
+
+
+### Bug Fixes
+
+* Fix security issues ([6f02e08](https://github.com/oalexander-dev/angular2gridster/commit/6f02e08))
+* Use rounding again for cell size ([9962aa0](https://github.com/oalexander-dev/angular2gridster/commit/9962aa0)), closes [#347](https://github.com/oalexander-dev/angular2gridster/issues/347)
+* **drag:** Remove rounding in clalculating cell sizes and item positions ([536cd41](https://github.com/oalexander-dev/angular2gridster/commit/536cd41)), closes [#346](https://github.com/oalexander-dev/angular2gridster/issues/346) [#334](https://github.com/oalexander-dev/angular2gridster/issues/334)
+* Fix lodash Vulnerable version ([7e25199](https://github.com/oalexander-dev/angular2gridster/commit/7e25199))
+* **build:** fix peerDependencies ([d9f6f02](https://github.com/oalexander-dev/angular2gridster/commit/d9f6f02))
+* **demo:** demo not scrollable content ([1fb0cd4](https://github.com/oalexander-dev/angular2gridster/commit/1fb0cd4))
+* **demo:** Fix resize widget by buttons in demo ([3aab09c](https://github.com/oalexander-dev/angular2gridster/commit/3aab09c))
+* **drag:** fix drag mouse position in scrollabe container ([d044b54](https://github.com/oalexander-dev/angular2gridster/commit/d044b54))
+* Allow wrapping gridster-item component with other components ([e6a5b3f](https://github.com/oalexander-dev/angular2gridster/commit/e6a5b3f))
+* change event - oldValues empty when value = 0 ([ca6616a](https://github.com/oalexander-dev/angular2gridster/commit/ca6616a)), closes [#273](https://github.com/oalexander-dev/angular2gridster/issues/273)
+* Enabling scrolling in demo dashboard ([80326f8](https://github.com/oalexander-dev/angular2gridster/commit/80326f8))
+* error when lazy loading widgets ([611e56f](https://github.com/oalexander-dev/angular2gridster/commit/611e56f)), closes [#165](https://github.com/oalexander-dev/angular2gridster/issues/165)
+* Expose private exports in bundle ([e50b070](https://github.com/oalexander-dev/angular2gridster/commit/e50b070)), closes [#299](https://github.com/oalexander-dev/angular2gridster/issues/299)
+* fix element.style is undefined error ([7baa71c](https://github.com/oalexander-dev/angular2gridster/commit/7baa71c)), closes [#298](https://github.com/oalexander-dev/angular2gridster/issues/298)
+* Fix lint errors and extend lint script ([f61d42a](https://github.com/oalexander-dev/angular2gridster/commit/f61d42a))
+* Hide grid lines on item drag out ([49294c2](https://github.com/oalexander-dev/angular2gridster/commit/49294c2)), closes [#173](https://github.com/oalexander-dev/angular2gridster/issues/173)
+* import style according to angular style guide ([a4004a5](https://github.com/oalexander-dev/angular2gridster/commit/a4004a5))
+* improve formatting ([8d74c11](https://github.com/oalexander-dev/angular2gridster/commit/8d74c11))
+* Make click event to be triggered on touch in drag handler ([e8a6578](https://github.com/oalexander-dev/angular2gridster/commit/e8a6578))
+* order of import, improve formatting ([ef886ad](https://github.com/oalexander-dev/angular2gridster/commit/ef886ad))
+* position and size binding on outside change ([3a15ff2](https://github.com/oalexander-dev/angular2gridster/commit/3a15ff2))
+* prevent changing bindings in gridster items on gridster destroy ([982cc53](https://github.com/oalexander-dev/angular2gridster/commit/982cc53))
+* prevent error while dragging widget outside browser window (firefox only) ([7855b99](https://github.com/oalexander-dev/angular2gridster/commit/7855b99)), closes [#298](https://github.com/oalexander-dev/angular2gridster/issues/298)
+* remove directory demo/src/app/gridster/, add symlink ([301a873](https://github.com/oalexander-dev/angular2gridster/commit/301a873))
+* Remove error when adding new widgets with no responsiveOptions ([275b1ca](https://github.com/oalexander-dev/angular2gridster/commit/275b1ca)), closes [#246](https://github.com/oalexander-dev/angular2gridster/issues/246)
+* remove forgoten console.log ([4d4a61a](https://github.com/oalexander-dev/angular2gridster/commit/4d4a61a))
+* set default draggableOptions to empty object ([8f3a033](https://github.com/oalexander-dev/angular2gridster/commit/8f3a033)), closes [#264](https://github.com/oalexander-dev/angular2gridster/issues/264)
+* **config:** correct applying dragAndDrop and resizable options on init ([acfbd58](https://github.com/oalexander-dev/angular2gridster/commit/acfbd58)), closes [#163](https://github.com/oalexander-dev/angular2gridster/issues/163)
+* **deeps:** Add missing RxJs dependencies ([f675e66](https://github.com/oalexander-dev/angular2gridster/commit/f675e66))
+* **demo:** fix wrong item position on prototype drop ([dde685c](https://github.com/oalexander-dev/angular2gridster/commit/dde685c))
+* **drag:** Fix error on prototype drag start ([90ade55](https://github.com/oalexander-dev/angular2gridster/commit/90ade55))
+* **drag:** Fix exceptions when dropping item prototype with touch devices ([8053e01](https://github.com/oalexander-dev/angular2gridster/commit/8053e01))
+* **drag:** Fix overlapping in different breakpoints after item resize with floating on false ([a411afe](https://github.com/oalexander-dev/angular2gridster/commit/a411afe))
+* **drag:** Fix overlapping in different breakpoints after item resize with floating on false ([09b7e94](https://github.com/oalexander-dev/angular2gridster/commit/09b7e94)), closes [#194](https://github.com/oalexander-dev/angular2gridster/issues/194)
+* **drag:** Fix overlapping in different breakpoints after item resize with floating on false ([0258d5d](https://github.com/oalexander-dev/angular2gridster/commit/0258d5d))
+* **drag:** Fix problem with resolving collision with gridster gravity on false ([8d8f6a4](https://github.com/oalexander-dev/angular2gridster/commit/8d8f6a4)), closes [#209](https://github.com/oalexander-dev/angular2gridster/issues/209)
+* **drag:** Prevent gravity of dragged element on drop ([f32144e](https://github.com/oalexander-dev/angular2gridster/commit/f32144e)), closes [#214](https://github.com/oalexander-dev/angular2gridster/issues/214)
+* **drag:** Prevent moving item to negative position ([0265244](https://github.com/oalexander-dev/angular2gridster/commit/0265244)), closes [#174](https://github.com/oalexander-dev/angular2gridster/issues/174)
+* **drag:** Remove restriction about dragging items down/right ([3e596c5](https://github.com/oalexander-dev/angular2gridster/commit/3e596c5)), closes [#228](https://github.com/oalexander-dev/angular2gridster/issues/228)
+* **drag:** Solve problem with dropping items in single lane ([624a9fe](https://github.com/oalexander-dev/angular2gridster/commit/624a9fe)), closes [#183](https://github.com/oalexander-dev/angular2gridster/issues/183)
+* Update demo with info about coords with responsiveOptions set ([b8f2227](https://github.com/oalexander-dev/angular2gridster/commit/b8f2227))
+* **gridster:** add missing unsubscribe ([6083508](https://github.com/oalexander-dev/angular2gridster/commit/6083508))
+* **resize:** Fix initial bindings, when new item without data is added. ([7e0d0db](https://github.com/oalexander-dev/angular2gridster/commit/7e0d0db)), closes [#158](https://github.com/oalexander-dev/angular2gridster/issues/158)
+* remove directory demo/src/app/gridster/, add symlink ([06cc048](https://github.com/oalexander-dev/angular2gridster/commit/06cc048))
+* remove directory demo/src/app/gridster/, add symlink ([8b3633a](https://github.com/oalexander-dev/angular2gridster/commit/8b3633a))
+* **responsive:** Use responsive position properties for items added after gridster init ([20ddfe3](https://github.com/oalexander-dev/angular2gridster/commit/20ddfe3)), closes [#116](https://github.com/oalexander-dev/angular2gridster/issues/116)
+* **scroll:** Use draggable options to enable/disable scroll on resize ([7345024](https://github.com/oalexander-dev/angular2gridster/commit/7345024))
+* typos ([ff6756d](https://github.com/oalexander-dev/angular2gridster/commit/ff6756d))
+
+
+### fear
+
+* **build:** compatibility with Angular 6 ([ceb74e3](https://github.com/oalexander-dev/angular2gridster/commit/ceb74e3))
+
+
+### Features
+
+* **config:** add Gridster responsiveToParent option ([35ca28c](https://github.com/oalexander-dev/angular2gridster/commit/35ca28c)), closes [#201](https://github.com/oalexander-dev/angular2gridster/issues/201) [#333](https://github.com/oalexander-dev/angular2gridster/issues/333)
+* **upgrade:** Upgrade to Angular 12 ([57e28c4](https://github.com/oalexander-dev/angular2gridster/commit/57e28c4))
+* allow drag item prototypes to different gridster components in different modules ([7a5abd1](https://github.com/oalexander-dev/angular2gridster/commit/7a5abd1)), closes [#208](https://github.com/oalexander-dev/angular2gridster/issues/208)
+* angular 5 compatibility ([cec9083](https://github.com/oalexander-dev/angular2gridster/commit/cec9083)), closes [#244](https://github.com/oalexander-dev/angular2gridster/issues/244)
+* Angular 7 support ([38a1be7](https://github.com/oalexander-dev/angular2gridster/commit/38a1be7))
+* Upgrade to Angular8 ([2bcc03f](https://github.com/oalexander-dev/angular2gridster/commit/2bcc03f))
+* **api:** extend "change" event object to have isNew and oldValues ([4e5d541](https://github.com/oalexander-dev/angular2gridster/commit/4e5d541)), closes [#191](https://github.com/oalexander-dev/angular2gridster/issues/191)
+* **config:** Add option lines.always to always show grid lines ([07c1512](https://github.com/oalexander-dev/angular2gridster/commit/07c1512)), closes [#227](https://github.com/oalexander-dev/angular2gridster/issues/227)
+* **config:** Provide support for different item width/height for different breakpoints ([6f95dd3](https://github.com/oalexander-dev/angular2gridster/commit/6f95dd3)), closes [#98](https://github.com/oalexander-dev/angular2gridster/issues/98)
+* **config:** Provide support for different item width/height for different breakpoints ([09815b9](https://github.com/oalexander-dev/angular2gridster/commit/09815b9)), closes [#98](https://github.com/oalexander-dev/angular2gridster/issues/98)
+* **config:** Provide support for different item width/height for different breakpoints ([06421b5](https://github.com/oalexander-dev/angular2gridster/commit/06421b5)), closes [#98](https://github.com/oalexander-dev/angular2gridster/issues/98)
+* **config:** Provide support for different item width/height for different breakpoints ([b0b7888](https://github.com/oalexander-dev/angular2gridster/commit/b0b7888)), closes [#98](https://github.com/oalexander-dev/angular2gridster/issues/98)
+* **css:** use ViewEncapsultation.None in all components ([06cfa7b](https://github.com/oalexander-dev/angular2gridster/commit/06cfa7b))
+* **demo:** Add "Remove all widgets" button to demo page ([aad2c09](https://github.com/oalexander-dev/angular2gridster/commit/aad2c09))
+* **demo:** Add reset widgets button ([0338921](https://github.com/oalexander-dev/angular2gridster/commit/0338921))
+* **drag:** Allow gridster inside gridster ([1fc10d6](https://github.com/oalexander-dev/angular2gridster/commit/1fc10d6))
+* **drag:** Allow gridster inside gridster ([294d84b](https://github.com/oalexander-dev/angular2gridster/commit/294d84b))
+* **drag:** Allow gridster inside gridster ([7985ac7](https://github.com/oalexander-dev/angular2gridster/commit/7985ac7))
+* **drag:** Allow gridster inside gridster ([eb24576](https://github.com/oalexander-dev/angular2gridster/commit/eb24576))
+* **drag:** Allow gridster inside gridster ([55bfaae](https://github.com/oalexander-dev/angular2gridster/commit/55bfaae))
+* **drag:** Allow gridster inside gridster ([d49f170](https://github.com/oalexander-dev/angular2gridster/commit/d49f170))
+* **drag:** Allow gridster inside gridster ([2ee8c99](https://github.com/oalexander-dev/angular2gridster/commit/2ee8c99))
+* responsive gridster-items, gridster-item-prototype. GridsterOptions new flag: responsiveSizes ([871f886](https://github.com/oalexander-dev/angular2gridster/commit/871f886))
+* **drag:** Allow gridster inside gridster ([9472a82](https://github.com/oalexander-dev/angular2gridster/commit/9472a82))
+* display grid lines on drag and resize ([d9440bb](https://github.com/oalexander-dev/angular2gridster/commit/d9440bb))
+* **resize:** configurable resize handlers ([f7f83b5](https://github.com/oalexander-dev/angular2gridster/commit/f7f83b5)), closes [#135](https://github.com/oalexander-dev/angular2gridster/issues/135)
+* **scroll:** restrict scroll direction to gridster direction ([dabcf1a](https://github.com/oalexander-dev/angular2gridster/commit/dabcf1a)), closes [#143](https://github.com/oalexander-dev/angular2gridster/issues/143)
+
+
+### BREAKING CHANGES
+
+* **build:** New bundles works only with Angular 6. New selector names with ngx prefix
+
+
+
 ## [14.0.2](https://github.com/oalexander-dev/angular2gridster/compare/v13.0.0...v14.0.2) (2023-01-18)
 
 
