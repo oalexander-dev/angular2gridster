@@ -10,6 +10,7 @@ Angular implementation of well known Gridster (no jQuery, no external libraries,
 
 ## Versions:
 
+-   Version **15.x** works with **Angular 15.x**.
 -   Version **14.x** works with **Angular 14.x**.
 -   Version **13.x** works with **Angular 13.x**.
 -   Version **12.x** works with **Angular 12.x**.
@@ -27,14 +28,14 @@ Versions **1.x** and **0.x** works only with **Angular 4.x**, but the newest sta
 ## Installation
 
 ```shell
-npm install angular2gridster
+npm install angular2gridster-v2
 ```
 
 Once installed you need to import our module:
 
 ```js
 ...
-import { GridsterModule } from 'angular2gridster';
+import { GridsterModule } from 'angular2gridster-v2';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,7 @@ System.config({
     map: {
         // ...
         rxjs: 'node_modules/rxjs',
-        angular2gridster: 'node_modules/angular2gridster',
+        angular2gridster: 'node_modules/angular2gridster-v2',
     },
     packages: {
         // ...

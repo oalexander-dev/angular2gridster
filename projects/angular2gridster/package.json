@@ -1,8 +1,8 @@
 {
     "name": "angular2gridster",
     "peerDependencies": {
-        "@angular/common": "^14.2.12",
-        "@angular/core": "^14.2.12"
+        "@angular/common": "^14.2.12 || ^15.0.0",
+        "@angular/core": "^14.2.12 || ^15.0.0"
     },
     "dependencies": {
         "tslib": "^2.3.1"
